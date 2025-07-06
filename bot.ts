@@ -14,7 +14,7 @@ Put a heart if you’ve done it ❤️
 `;
 
 
-cron.schedule("0 12 */5 * *", () => {
+cron.schedule("0 9 */5 * *", () => {
   bot.sendMessage(chatId, msgToRemind);
     bot.sendMessage(chat_dev, 'the bot send the message');
 });
